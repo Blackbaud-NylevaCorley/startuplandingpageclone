@@ -22,7 +22,7 @@ body {
     border: 0;
 }
 
-div.content {
+div {
     border: 1px solid Chocolate;
 }
 
@@ -83,4 +83,39 @@ a:hover {
 a:active {
   /* Typography Declarations */
   color: #ef5b2b;
+}
+
+.feature > .main {
+  padding: 20rem;
+  width: auto;
+  height: 45.938rem;
+  text-align: center;
+  background-image: url('../img/thinkful-karma-banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.main > h1, h2 {
+  color: #fff;
+  font-weight: 200;
+  line-height: 0.6em;
+}
+
+.main > h1 {
+  font-size: 3.125em;
+  margin-top: -0.75em;
+}
+
+.main > h2 {
+  font-size: 1.563em;
+}
+
+.main button {
+  color: #fff;
+  background-color: #ef5b2b;
+  padding: 1em 2em;
+  border: 1px solid #ef5b2b;
+  border-radius : 4px;
+  font-size: 1em;
 }
