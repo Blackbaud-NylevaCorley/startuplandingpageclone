@@ -85,7 +85,7 @@ a:active {
   color: #ef5b2b;
 }
 
-.feature > .main {
+.banner > .main {
   padding: 20rem;
   width: auto;
   height: 45.938rem;
@@ -96,18 +96,26 @@ a:active {
   background-size: cover;
 }
 
-.main > h1, h2 {
+.banner .main h1, h2 {
   color: #fff;
   font-weight: 200;
   line-height: 0.6em;
 }
 
+.features .middle h1, h2 {
+  color: #000;
+  font-weight: 200;
+  line-height: 0.6em;
+}
+
 .main > h1 {
+  color: #fff;
   font-size: 3.125em;
   margin-top: -0.75em;
 }
 
 .main > h2 {
+  color: #fff;
   font-size: 1.563em;
 }
 
@@ -128,4 +136,20 @@ a:active {
   background: #ed4812;
   text-decoration: none;
   cursor: pointer;
+}
+
+.features > .middle {
+  padding: 5rem;
+  background-color: #fff;
+  width: auto;
+  height: 45rem;
+  text-align: center;
+}
+
+.feature-devices {
+  float: left;
+}
+
+.feature-payment {
+  float: right;
 }
