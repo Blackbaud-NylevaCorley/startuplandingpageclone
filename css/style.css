@@ -102,10 +102,16 @@ a:active {
   line-height: 0.6em;
 }
 
-.features .middle h1, h2 {
+.features h1 {
   color: #000;
-  font-weight: 200;
+  font-size: 2.5rem;
+  font-weight: 300;
   line-height: 0.6em;
+}
+
+.middle h2 {
+  color: #000;
+  font-weight: 400;
 }
 
 .main > h1 {
@@ -138,18 +144,19 @@ a:active {
   cursor: pointer;
 }
 
-.features > .middle {
-  padding: 5rem;
+.features {
+  padding: 7rem;
   background-color: #fff;
-  width: auto;
-  height: 45rem;
   text-align: center;
 }
 
-.feature-devices {
-  float: left;
+.middle {
+  width: auto;
+  height: 20rem;
 }
 
-.feature-payment {
-  float: right;
+.feature-devices, .feature-productivity, .feature-payment {
+  float: left;
+  padding-left: 7rem;
+  padding-top: 3rem;
 }
