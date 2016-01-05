@@ -145,7 +145,7 @@ a:active {
 }
 
 .features {
-  padding: 7rem;
+  padding: 7rem 7rem 0 7rem;
   background-color: #fff;
   text-align: center;
 }
@@ -159,4 +159,63 @@ a:active {
   float: left;
   padding-left: 7rem;
   padding-top: 3rem;
+}
+
+footer {
+  padding: 1rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.end {
+  width: auto;
+  margin: 0 16rem;
+}
+
+hr {
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #eaebec;
+} 
+
+.social {
+  padding: 0;
+}
+
+.social ul {
+  list-style-type: none;
+}
+
+.social li {
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  margin: 1.25rem 0.5rem;
+  border: 1px solid #eaebec;
+  padding: 0.525rem 0;
+  text-align: center;
+}
+
+.end > p {
+  color: #000;
+  font-size: 1em;
+}
+
+p.copyright {
+  color: #999;
+  font-size: 0.85em;
+}
+
+.twitter {
+  color: #55acee;
+}
+
+.facebook {
+  color: #4c66a4;
+}
+
+.instagram {
+  color: #3f729b;
 }
